@@ -1,6 +1,6 @@
-package domain.customer
+package domain.customer.repository
 
-import aggregate.Customer
+import domain.customer.aggregate.Customer
 import java.util.*
 
 class CustomerNotFoundException(

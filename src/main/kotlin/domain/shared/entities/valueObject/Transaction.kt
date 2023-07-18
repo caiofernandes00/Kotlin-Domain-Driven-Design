@@ -1,4 +1,4 @@
-package entities.valueObject
+package domain.shared.entities.valueObject
 
 import java.time.ZonedDateTime
 import java.util.*

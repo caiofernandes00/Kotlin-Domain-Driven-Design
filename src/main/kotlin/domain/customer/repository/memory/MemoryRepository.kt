@@ -1,9 +1,9 @@
-package domain.customer.memory
+package domain.customer.repository.memory
 
-import aggregate.Customer
-import domain.customer.CustomerFailedToCreateException
-import domain.customer.CustomerNotFoundException
-import domain.customer.CustomerRepository
+import domain.customer.aggregate.Customer
+import domain.customer.repository.CustomerFailedToCreateException
+import domain.customer.repository.CustomerNotFoundException
+import domain.customer.repository.CustomerRepository
 import java.util.*
 
 class MemoryRepository private constructor(

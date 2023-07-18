@@ -1,8 +1,8 @@
-package aggregate
+package domain.customer.aggregate
 
-import entities.Item
-import entities.Person
-import entities.valueObject.Transaction
+import domain.shared.entities.Item
+import domain.shared.entities.Person
+import domain.shared.entities.valueObject.Transaction
 import java.util.*
 
 class Customer private constructor(
